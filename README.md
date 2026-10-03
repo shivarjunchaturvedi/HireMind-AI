@@ -123,3 +123,23 @@ HireMind AI's primary analysis workflow runs with a built-in deterministic engin
 ## ⚖️ Ethical & Compliance Disclaimer
 
 HireMind AI provides analytical document comparison heuristics only. The platform makes no claim to guarantee ATS pass rates, recruiter contacts, or hiring decisions. All demographic attributes (race, gender, age, religion, disability, etc.) are strictly excluded from the analysis pipeline.
+
+## 📸 Project Screenshots
+
+### 🏠 Dashboard
+![HireMind AI Dashboard](screenshots/Screenshot%202026-10-03%20232342.png)
+
+### 🔍 New Analysis
+![New Analysis](screenshots/Screenshot%202026-10-03%20232409.png)
+
+### 📊 Match Analysis
+![Match Analysis](screenshots/Screenshot%202026-10-03%20232532.png)
+
+### 🎯 Skill Gap Analysis
+![Skill Gap Analysis](screenshots/Screenshot%202026-10-03%20232548.png)
+
+### 🧠 Learning Roadmap
+![Learning Roadmap](screenshots/Screenshot%202026-10-03%20232601.png)
+
+### 📋 Analysis Report
+![Analysis Report](screenshots/Screenshot%202026-10-03%20232636.png)
