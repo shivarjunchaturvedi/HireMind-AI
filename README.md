@@ -1,4 +1,19 @@
-# HireMind AI — AI-Powered Resume & Job Matching Platform
+<div align="center">
+
+# HireMind AI
+
+### Resume Analysis · Job Matching · Skill-Gap Insights
+
+A full-stack project for comparing resumes with job descriptions using transparent scoring signals, skill normalization, ATS-oriented formatting diagnostics, and learning recommendations.
+
+![React](https://img.shields.io/badge/React-19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+[Features](#-key-features) · [Architecture](#-architecture) · [Quickstart](#-quickstart-with-docker-compose) · [Testing](#-testing)
+
+</div>
 
 [![React](https://img.shields.io/badge/React-19-61DAFB.svg?style=flat&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6.svg?style=flat&logo=typescript)](https://www.typescriptlang.org)
