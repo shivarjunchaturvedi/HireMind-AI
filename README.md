@@ -66,67 +66,36 @@ PostgreSQL 16 Relational Database (SQLAlchemy 2.0 + Alembic)
 
 ---
 
-## 🚀 Quickstart with Docker Compose
+## 🚀 Setup status
 
-Ensure Docker and Docker Compose are installed, then run:
+The current `main` branch contains the project manifest, Vite configuration, Docker files, and screenshots, but it does not currently contain the referenced `src/` or `backend/` directories. Because of that, the documented frontend build and backend/Docker quickstart cannot be verified from this branch as checked out.
+
+### Files present in this repository
+
+- `package.json` and `package-lock.json` — frontend dependency manifests
+- `vite.config.ts` and `tsconfig.json` — frontend tooling configuration
+- `Dockerfile.frontend`, `Dockerfile.backend`, and `docker-compose.yml` — container configuration; the app source folders need to be restored before these can run
+- `screenshots/` — UI screenshots
+
+### Run locally after restoring the source files
 
 ```bash
-# Clone the repository
-git clone https://github.com/shivarjunchaturvedi/hiremind-ai.git
-cd hiremind-ai
-
-# Start PostgreSQL, Backend, and Frontend containers
-docker compose up --build
-```
-
-Access the applications:
-* **Web Application:** `http://localhost:3000`
-* **FastAPI OpenAPI Swagger Docs:** `http://localhost:8000/docs`
-* **PostgreSQL:** `localhost:5432`
-
----
-
-## 💻 Local Development Setup
-
-### 1. Frontend
-```bash
-# Install Node dependencies
-npm install
-
-# Start development server
+npm ci
 npm run dev
 ```
 
-### 2. Backend (FastAPI)
-```bash
-cd backend
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install Python requirements
-pip install -r requirements.txt
-
-# Run migrations
-alembic upgrade head
-
-# Start FastAPI server
-uvicorn app.main:app --reload --port 8000
-```
+The development command expects `src/main.tsx`, referenced by `index.html`. Restore the frontend source first. The backend commands apply only after restoring the `backend/` folder and its `requirements.txt`.
 
 ---
 
 ## 🧪 Testing
 
-Run backend and frontend tests:
-```bash
-# Run pytest for backend
-cd backend
-pytest -v
+The repository defines `npm run build` and `npm run lint`. Their success cannot be verified until the missing source files are restored. Then run:
 
-# Run TypeScript lint and typecheck
+```bash
+npm ci
 npm run lint
+npm run build
 ```
 
 ---
