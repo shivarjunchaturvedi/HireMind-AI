@@ -20,7 +20,7 @@ A full-stack project for comparing resumes with job descriptions using transpare
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED.svg?style=flat&logo=docker)](https://www.docker.com)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
-HireMind AI is a production-grade, full-stack resume and job description matching platform designed for modern software engineering applicants, technical interviewers, and recruiters.
+HireMind AI is a resume and job-description matching platform designed to help applicants understand how their experience aligns with a role. Features and setup instructions below describe the intended project architecture; verify them against the current source before using them in production.
 
 Unlike "black-box" wrappers that ask an LLM for an arbitrary score, HireMind AI utilizes a transparent **5-signal deterministic scoring pipeline**, canonical skill taxonomy normalization, dense vector cosine semantic similarity, and ATS formatting diagnostics.
 
